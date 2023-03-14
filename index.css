@@ -1,0 +1,39 @@
+span {
+  font-style: italic;
+}
+
+.list-conteiner {
+  display: inline-block;
+  border-style: solid;
+  border-width: 0.5px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.list-conteiner>p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.img-conteiner {
+  float: right;
+  border-style: solid;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.img-conteiner>div {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo-html {
+  max-width: 70px;
+}
+
+.nav-conteiner {
+  display: flex;
+  justify-content: space-between;
+}
